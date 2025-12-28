@@ -48,12 +48,6 @@ Date Sort: Chronological ordering, handling empty dates as future events.
 
 Thread Safety The application utilizes SwingUtilities.invokeLater to ensure that the GUI is constructed on the Event Dispatch Thread (EDT), preventing race conditions and ensuring thread-safe UI updates.
 
-HOW TO RUN
-Clone the repository: git clone https://github.com/your-username/todo-list-java.git
-
-Compile the source code: javac ToDoListGUI.java
-
-Run the application: java ToDoListGUI
 
 FILE STRUCTURE
 ToDoListGUI.java: Contains the main application logic and UI components.
